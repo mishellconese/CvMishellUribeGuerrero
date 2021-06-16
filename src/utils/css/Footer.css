@@ -1,0 +1,47 @@
+.ContainerFooter{
+	background-color: #468faf;
+	border: solid  #468faf;
+	justify-content: center;
+	align-items: center;
+}
+
+/*ESTILOS EN LAS FUENTES*/
+@font-face{
+	src: url(../fonts/JackInput.woff);
+	font-family: jack;
+}
+
+/*ESTILOS PARA EL FOOTER*/
+/*CONTENEDOR MAYOR*/
+
+.plan{
+	font-family: jack;
+	border-radius: 12px;
+	border: solid 4px #012a4a;
+	width: 80%;
+	background-color: #e9ecef;
+	margin-left: 9.6%;
+	padding-right: 5px;
+}
+
+.foot{
+	margin-left: 10px;
+}
+
+.more{
+	margin-left: 20px;
+	color: gray;
+}
+
+.cont1{
+	padding-bottom: 5px;
+	width: 30px;
+	height: 30px;
+}
+
+.plan{
+	padding-bottom: 300px;
+}
+
+
+

@@ -1,0 +1,212 @@
+.ContainerPrincipal{
+	display: flex;
+	width: 99.99%;
+	/*posible cambioxd*/
+	justify-content: center;
+	align-items: center;
+	background-color: #468faf;
+	
+}
+
+/*FUENTES*/
+@font-face{
+	src: url(../fonts/JackInput.woff);
+	font-family: jack;
+}
+
+/*CONTENEDOR DE LA PARTE IZQUIERDA Y DERECHA*/
+.ConteAll{
+	border-radius: 12px;
+	border: solid 4px #012a4a;
+	display: flex;
+	width: 80%;
+	background-color: white;
+}
+
+/*CONTONEDOR AZUL IZQUIERDO*/
+.Parteiz{
+	border-radius: 1px;
+	width: 30%;
+	display: block;
+	background: #a9d6e5;
+	padding-left: 10px;
+
+}
+
+/*CLASES NOMBRADAS E IMPORTADAS*/
+.cont{
+    width: 15%;
+    height: 15%;
+    margin-right: 5px;
+    margin-left: 10px;
+    }
+
+.cont1{
+    width: 15%;
+    height: 15%;
+    margin-right: 15px;
+    margin-left: 10px;
+    }
+
+.cont2{
+    margin-right: 15px;
+    margin-left: 10px;
+    font-family: jack;
+    }
+
+
+/*TEXTO DE LA IZQUIERDA*/
+	.Iztext{
+		font-family: jack;
+	}
+/*CONTENEDOR DE LA IMAGEN DE PERFIL*/
+	.ConteImg img{
+    margin-left: 20px;
+	width: 250px;
+	height: auto;
+
+}
+
+/*CONTENEDOR DE LA PARTE DERECHA*/
+.Parteder{
+	border-radius: 12px;
+	padding-left: 10px ;
+	width: 70%;
+}
+
+/*TEXTOS DE LA PARTE DERECHA*/
+	.Parteder h1{
+		font-family: jack;
+		font-size: 40px;
+	}
+	.Parteder h2{
+		font-family: jack;
+		font-size: 30px;
+	}
+
+		.Parteder h3{
+		font-family: jack;
+		font-size: 20px;
+		font-weight: bolder;
+		color: gray;
+	}
+/* TEXTO DE LA PARTE IZQUIERDA*/
+	.Parteiz h3{
+		font-family: jack;
+		font-size: 30px;
+	}
+
+	/*----------------BARRAS DE HABILIDADES--------------------*/
+
+	.Soft h2{
+		font-size: black;
+	}
+
+	.cont3{
+		margin-left: 20px;
+	}
+
+	body { background: #E9E5E2 ; }
+
+#skill { 
+	list-style: none;
+	font: 5px ;
+	width: 296px;
+	position: relative;
+	line-height: 2em;
+}
+
+#skill li { 
+	margin-bottom:30px; 
+	background:#e9e5e2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+	background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
+	height:10px; 
+	border-radius:10px; 
+	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
+}
+
+#skill li h4 { 
+	position:relative; 
+	top:-25px;
+}
+
+.bar { 
+	height:8px; 
+	margin:1px 2px;  
+	position:absolute;
+	border-radius:10px;
+	-moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+	-webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;	 
+	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
+}
+
+.graphic-design {
+	width:85%; 
+	-moz-animation:graphic-design 2s ease-out;
+	-webkit-animation:graphic-design 2s ease-out;
+	background-color: #66b3cc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+	background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+	background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+	background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+	background-image: -o-linear-gradient(top, #f674a4, #e06995);
+	background-image: linear-gradient(top, #f674a4, #e06995);
+}
+
+.html-css {
+	width:80%;
+	-moz-animation:html-css 2s ease-out;
+	-webkit-animation:html-css 2s ease-out;
+	background-color: #66b3cc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+	background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}
+
+.jquery {
+	width:65%;
+	-moz-animation:jquery 2s ease-out;
+	-webkit-animation:jquery 2s ease-out;
+	background-color: #66b3cc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#91ba52));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #91ba52);
+	background-image: -moz-linear-gradient(top, #66b3cc, #91ba52);
+	background-image: -ms-linear-gradient(top, #66b3cc, #91ba52);
+	background-image: -o-linear-gradient(top, #66b3cc, #91ba52);
+	background-image: linear-gradient(top, #66b3cc, #91ba52);
+}
+
+.wordpress {
+	width:80%;
+	-moz-animation:wordpress 2s ease-out;
+	-webkit-animation:wordpress 2s ease-out;
+	background-color: #66b3cc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)	
+}
+
+@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
+@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+
+@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:100%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+
+/*izquierda*/
