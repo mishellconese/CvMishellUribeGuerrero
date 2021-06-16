@@ -43,5 +43,22 @@
 	padding-bottom: 300px;
 }
 
+/*BOTON DE GIT*/
+.boton_personalizado{
+	font-family: jack;
+    padding: 10px;
+    margin-top: 500px;
+    margin-right: 80px;
+    margin-left: 42%;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
 
+.bot{
+	padding-top: 60px;
+}
 

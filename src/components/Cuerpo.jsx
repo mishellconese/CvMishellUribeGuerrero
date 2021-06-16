@@ -50,7 +50,7 @@ const Cuerpo = () => {
 						<div className="cont2">I currently have a background in software development, coding and decoding through informal education, I am studying a technical course with emphasis in front end developer and in languages such as English, in addition to basic A2 knowledge in French. </div>
 						<h2>Academic Training</h2>
 					
-						<div className="cont2">➤I finished high school in 2019 at the Liceo Femenino Merecedes Nariño school, with emphasis in French and English languages, with participation in Astronomy and technology workshops. <br/><br/> ➤In 2020 I started studying English at the smart language academy.<br/>I certify in the English language<br/>Non-certified French<br/><br/>➤Diploma in 2020 to 2021 in software programming and coding using e-learning: C+, Python, Scratch, Arduino among other skills.<br/><br/>➤Currently studying a Web Development Technician, in frond end.</div>
+						<div className="cont2">➤I finished high school in 2019 at the Liceo Femenino Merecedes Nariño school, with emphasis in French and English languages, with participation in Astronomy and technology workshops. <br/><br/> ➤In 2020 I started studying English at the smart language academy.<br/>I certify in the English language<br/>Non-certified French<br/><br/>➤Diploma in 2020 to 2021 in software programming and coding using e-learning: C+, Python, Scratch, Arduino among other skills at Pontificial University Javeriana.<br/><br/>➤Currently studying a Web Development Technician, in frond end.</div>
 						<h2>Languages learning</h2>
 						<div className="cont2">➤I certify in the English language: Written B2: |Spoken B1<br/>➤Non-certified French: Spoken A1| Written A1</div>
 					
