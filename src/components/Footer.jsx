@@ -14,7 +14,7 @@ const Footer = () => {
 				<div><img src={inge} className="cont1" alt="Inge"/><b>➤Practical course with bases in Aerospace Engineering in Rionegro, Antioquia year 2020</b></div>
 				<div><img src={progra} className="cont1" alt="Progra"/><b>➤Certification of course in experimental physics at the University National of Colombia year 2020</b></div>
 				<div><img src={science} className="cont1" alt="Science"/><b>➤Certification of course in theoretical physics at the University National of Colombia year 2020</b></div>
-				<div className="bot"><a class="boton_personalizado" href="https://github.com/mishellconese">Git Hub</a></div>
+				<div className="bot"><a class="boton_personalizado" href="https://github.com/mishellconese">GitHub</a></div>
 			</div>
 
 		</div>
